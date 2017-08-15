@@ -1,0 +1,19 @@
+---
+layout: default
+title: Brain snapshot
+---
+
+<h2>Blog changelog</h2>
+
+<ul class="posts">
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
+
+<p>Blog podsumowujące moje programistycznie przemyślenia.</p>
+<p>Chcę skategoryzować wiedzę, więc wszystkie wpisy będą prawdopodobnie,
+  nie tylko pod kątem stylistycznym ale również zawartości.
+  Natomiast sam blog będzie w formie changeloga.</p>
+<small>PS. Jestem kiepskim pisarzem. Więc prawdopodobnie
+  często będę refaktoryzował swoje kawałki tekstu.</small>
