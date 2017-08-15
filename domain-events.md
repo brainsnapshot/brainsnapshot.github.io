@@ -3,8 +3,6 @@ layout: page
 title: "Domain Events"
 ---
 
-# Domain Events
-
 Pojęcie Domian Event mocno związane jest z tematem DDD, ale podobnie jak reszta terminów z DDD może być implementowana niezależnie.
 Eventy mają symbolizować wydarzenia biznesowe które wydarzyły się w przeszłości np. PaymentPaid.  
 
